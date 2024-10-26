@@ -1,0 +1,138 @@
+.navcustom {
+    padding: 70px 0 0 0;
+}
+
+.nav-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.nav-content__heading {
+    font-size: 20px;
+    color: var(--yellow);
+    margin-bottom: 15px;
+}
+
+.nav-content__desc {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.nav-list {
+    margin: 0 auto;
+}
+
+.nav-list__item {
+    padding: 0 50px;
+    position: relative;
+}
+
+.nav-list__item::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: calc(50% + 3px);
+}
+
+.nav-list__item:nth-child(3):after {
+    display: none;
+}
+
+.nav-list__link {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: underline;
+    line-height: 1.3;
+    transition: all 0.3s ease-in-out;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.nav-list__link:hover {
+    color: var(--yellow);
+    transition: all 0.3s ease-in-out;
+}
+
+.appLink-list {
+    margin-right: auto;
+    justify-content: end;
+}
+
+.appLink-list__item1 {
+    margin-left: 15px;
+}
+
+.appLink-list__link {
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 185px;
+    height: 54px;
+    /* overflow: hidden; */
+    border-radius: 5px;
+    background: #000;
+}
+
+.plus__icone--bottom {
+    margin-left: calc(185px * 2 + 30px + 92.5px - 20px);
+}
+
+.appLink-list__img {
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    image-rendering: auto;
+}
+
+.appLink-list__overlay {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.9;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.appLink-list__link:hover .appLink-list__overlay {
+    transition: all 0.3s ease-in-out;
+    top: 0;
+    height: 100%;
+}
+
+.nav-box-3 {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-col {
+    display: flex;
+    align-items: center;
+}

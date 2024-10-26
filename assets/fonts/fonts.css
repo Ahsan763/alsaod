@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'HelveticaNeueLT';
+    src: url('HelveticaNeueLTArabic-Roman.woff2') format('woff2'),
+        url('HelveticaNeueLTArabic-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
